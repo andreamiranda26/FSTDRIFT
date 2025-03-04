@@ -76,9 +76,3 @@ for(m in 1:length(M12)){
   dev.off()
 }
 
-# Extract FST values at generation 50
-FST_50 <- FST_values[FST_values$time == 50, ]
-
-# Print to console
-print(paste("Migration Rate:", M12[m], "Scaling Factor:", k[kk]))
-print(FST_50)
